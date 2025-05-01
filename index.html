@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Phantom Worx</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-purple-400 font-sans">
+<body style="background-image: url('Photos/background.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+
+  <!-- Header -->
+  <header class="overlay p-6 flex items-center justify-between">
+    <img src="Photos/logo.png" alt="Phantom Worx Logo" class="h-16">
+    <nav class="space-x-4 text-purple-300">
+      <a href="#services" class="hover:text-white">Services</a>
+      <a href="#gallery" class="hover:text-white">Gallery</a>
+      <a href="#contact" class="hover:text-white">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="overlay text-center py-20">
+    <h1 class="text-5xl font-bold text-purple-500">Light Up the Night</h1>
+    <p class="mt-4 text-lg">Custom LED & Accessory Installs for Your Ride</p>
+    <a href="#contact" class="mt-6 inline-block bg-purple-700 hover:bg-purple-600 text-white py-2 px-6 rounded-full">Book Now</a>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="overlay py-16 px-6">
+    <h2 class="text-3xl font-bold text-center text-purple-500 mb-8">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-black p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold mb-2">LED Underglow</h3>
+        <p>Add dramatic flair and visibility to your car with vibrant underbody lighting.</p>
+      </div>
+      <div class="bg-black p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold mb-2">Interior Glow</h3>
+        <p>Enhance your cabin ambiance with custom RGB interior LED installs.</p>
+      </div>
+      <div class="bg-black p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold mb-2">Custom Accessories</h3>
+        <p>From light bars to logo projections, get custom-installed accessories built to impress.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="overlay py-16 px-6">
+    <h2 class="text-3xl font-bold text-center text-purple-500 mb-8">Gallery</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <img src="Photos/car1.jpg" class="rounded-lg shadow-md" alt="Car 1">
+      <img src="Photos/car2.webp" class="rounded-lg shadow-md" alt="Car 2">
+      <img src="Photos/car3.jpg" class="rounded-lg shadow-md" alt="Car 3">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="overlay py-16 px-6">
+    <h2 class="text-3xl font-bold text-center text-purple-500 mb-8">Contact Us</h2>
+    <h3 class="text-2xl font-bold text-center text-purple-400 mb-8">Email Us at phantomworxauto@gmail.com For Faster Inquiry</h3>
+    <form class="max-w-2xl mx-auto bg-black p-6 rounded-xl shadow-xl">
+      <input type="text" placeholder="Name" class="w-full mb-4 p-3 rounded bg-gray-800 text-white" required>
+      <input type="email" placeholder="Email" class="w-full mb-4 p-3 rounded bg-gray-800 text-white" required>
+      <textarea placeholder="Your Message" rows="4" class="w-full mb-4 p-3 rounded bg-gray-800 text-white" required></textarea>
+      <button type="submit" class="w-full bg-purple-700 hover:bg-purple-600 text-white py-2 rounded">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="overlay text-center py-6 text-sm text-purple-300">
+    &copy; 2025 Phantom Worx. All rights reserved.
+  </footer>
+
+</body>
+</html>
